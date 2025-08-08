@@ -15,7 +15,16 @@
     "react-dom": "18.2.0",
     "react-native": "0.72.3",
     "@supabase/supabase-js": "^2.3.1",
-    "@tanstack/react-query": "^5.5.1"
+    "@tanstack/react-query": ",
+    "@react-navigation/native": "*",
+    "@react-navigation/stack": "*",
+    "@react-navigation/bottom-tabs": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*",
+    "expo-image-picker": "*",
+    "expo-file-system": "*",
+    "expo-notifications": "*",
+    "expo-print": "*"^5.5.1"
   },
   "devDependencies": {
     "typescript": "^5.1.6",
