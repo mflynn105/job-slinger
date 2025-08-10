@@ -1,0 +1,19 @@
+# Job Slinger
+
+## Environment Variables
+
+The following keys must be set in your root `.env` file:
+
+```
+EXPO_PUBLIC_SUPABASE_URL=https://vvxlqmkjxqtmgxrwtpsm.supabase.co
+EXPO_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ2eGxxbWtqeHF0bWd4cnd0cHNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM4OTY3MTksImV4cCI6MjA2OTQ3MjcxOX0.zhXyidpco1pyOpXT9Oa1NsahjQJjpLn9Z9A2N10pZL0
+SUPABASE_URL=https://vvxlqmkjxqtmgxrwtpsm.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ2eGxxbWtqeHF0bWd4cnd0cHNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM4OTY3MTksImV4cCI6MjA2OTQ3MjcxOX0.zhXyidpco1pyOpXT9Oa1NsahjQJjpLn9Z9A2N10pZL0
+EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_51RsAKFIm7EfU38JPp3AnNO4mSRjl0Ck5XAnZ79met7hS9m8LjVAfdeppPtXUUJqUCLSWRxxmQD6I9BZYICu3ej8g00juUwS0xk
+```
+
+## Clients Module
+- List, details, add/edit forms migrated from field-task-pro
+- Org/user scoping enforced via Supabase RLS
+- Navigation integrated
+- See `.github/pull_request_template.md` for QA checklist
